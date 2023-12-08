@@ -1,0 +1,23 @@
+{
+  "name": "fresh-chrome",
+  "displayName": "fresh-chrome",
+  "description": "light with burgundy accents",
+  "publisher": "DanielHouston",
+  "version": "0.0.1",
+  "repository": "https://github.com/DanielHouston/FreshChrome",
+  "engines": {
+    "vscode": "^1.83.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Fresh Chrome",
+        "uiTheme": "vs",
+        "path": "./themes/Fresh Chrome-color-theme.json"
+      }
+    ]
+  }
+}
