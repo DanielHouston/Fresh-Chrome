@@ -996,35 +996,35 @@
 			"name": "illegal",
 			"scope": "invalid.illegal",
 			"settings": {
-				"foreground": "#ffffff"
+				"foreground": "#974b4b"
 			}
 		},
 		{
 			"name": "illegal",
 			"scope": "invalid.illegal.bad-ampersand.html",
 			"settings": {
-				"foreground": "#000000"
+				"foreground": "#974b4b"
 			}
 		},
 		{
 			"name": "Broken",
 			"scope": "invalid.broken",
 			"settings": {
-				"foreground": "#ffffff"
+				"foreground": "#616161"
 			}
 		},
 		{
 			"name": "Deprecated",
 			"scope": "invalid.deprecated",
 			"settings": {
-				"foreground": "#ffffff"
+				"foreground": "#97854b"
 			}
 		},
 		{
 			"name": "Unimplemented",
 			"scope": "invalid.unimplemented",
 			"settings": {
-				"foreground": "#ffffff"
+				"foreground": "#3d3680"
 			}
 		},
 		{
@@ -1544,7 +1544,16 @@
 				"source.ini"
 			],
 			"settings": {
-				"foreground": "#98c379"
+				"foreground": "#18BEB1"
+			}
+		},
+		{
+			"name": "Ini Definition Text",
+			"scope": [
+				"keyword.other.definition.ini"
+			],
+			"settings": {
+				"foreground": "#b521b3"
 			}
 		},
 		{
@@ -1749,7 +1758,7 @@
 				"constant.other.color.rgb-value.xi"
 			],
 			"settings": {
-				"foreground": "#ffffff"
+				"foreground": "#616161"
 			}
 		},
 		{
@@ -1939,7 +1948,7 @@
 		"inputOption.activeForeground": "#000000",
 		"input.placeholderForeground": "#767676",
 		"textLink.foreground": "#006ab1",
-		"editor.background": "#fdfdfd",
+		"editor.background": "#fefefe",
 		"editor.foreground": "#565656",
 		"editorBracketHighlight.foreground1": "#d4a215",
 		"editorBracketHighlight.foreground2": "#6382eb",
@@ -2128,19 +2137,11 @@
 		"editorGutter.commentRangeForeground": "#424242",
 		"debugExceptionWidget.background": "#f3f3f3",
 		"debugExceptionWidget.border": "#d5d5d5",
-		
-		"editorHoverWidget.foreground": "#336699", // Deeper blue for text, ensuring readability
-		"editorSuggestWidget.background": "#fff0e6", // Very light orange for a warm feel
-		"editorSuggestWidget.border": "#ffcc99", // Light orange border for a gentle contrast
-		"editorSuggestWidget.foreground": "#995c33", // Earthy orange for text, complementary to the background
-		"editorSuggestWidget.highlightForeground": "#339966", // Green for highlighted items, vibrant yet harmonious
-		"editorSuggestWidget.selectedBackground": "#e6ffe6", // Very light green for selected items, soft and noticeable
-		"editorMarkerNavigation.background": "#f2f2f2", // Light background for marker navigation
-		"editorMarkerNavigationError.background": "#ffcccc", // Soft red for errors, visible but not too stark
-		"editorMarkerNavigationError.border": "#ff6666", // Slightly brighter border for errors
-		"editorMarkerNavigationWarning.background": "#fff5cc", // Pale yellow for warnings, noticeable yet subtle
-		"editorMarkerNavigationWarning.border": "#ffcc66", // A brighter yellow border for warnings
-		"editorMarkerNavigationInfo.background": "#cceeff", // Very light blue for info, easy on the eyes
-		"editorMarkerNavigationInfo.border": "#66b2ff" // A more pronounced blue border for info messages
+
+
+		"editorSuggestWidget.border": "#d6ebff",
+		"editorSuggestWidget.foreground": "#616161",
+		"editorSuggestWidget.highlightForeground": "#c5036a",
+		"editorSuggestWidget.selectedBackground": "#485cce",
 	}
 }
